@@ -4,7 +4,7 @@ E16: Desarrollar un algoritmo que solicite una frase de mínimo 5 palabras y cap
 
 
 from rich import print
-from utils_adso import texto_es_num_int, create_tabla
+from utils_adso import create_tabla
 
 
 def capitalizar(txt: str) -> str:

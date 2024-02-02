@@ -4,7 +4,7 @@ ocurrencias de dicho carácter en una cadena de caracteres
 """
 
 from rich import print
-from utils_adso import texto_es_num_int, create_tabla
+from utils_adso import create_tabla
 
 
 def verificacion(word: str, lett: str) -> int:

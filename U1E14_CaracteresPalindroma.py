@@ -5,7 +5,7 @@ cadena se dice palíndromo si al invertirla es igual a ella misma.
 
 
 from rich import print
-from utils_adso import texto_es_num_int, create_tabla
+from utils_adso import create_tabla
 
 
 def verificacion(txt: str) -> bool:

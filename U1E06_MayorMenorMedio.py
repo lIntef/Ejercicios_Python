@@ -8,7 +8,7 @@ from rich import print
 from utils_adso import texto_es_num_int, create_tabla
 
 
-def verificación(num1: int, num2: int, num3: int) -> []:
+def verificacion(num1: int, num2: int, num3: int) -> []:
     vari = [num1, num2, num3]
     vari.sort()
     return vari
@@ -23,7 +23,7 @@ def ej06():
         num2 = texto_es_num_int(input())
         print("  [bold cyan]Ingrese tercer numero: ", end="")
         num3 = texto_es_num_int(input())
-        res = verificación(num1, num2, num3)
+        res = verificacion(num1, num2, num3)
         print(f"   [green]El numero mayor es: {res[2]}\n   "
               f"El numero de en medio es: {res[1]}\n   "
               f"El numero menor es: {res[0]}")
